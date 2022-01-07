@@ -113,6 +113,7 @@ class SettingsSeeder extends Seeder
 
 
         $language_options = json_encode([
+            'zh' => '中文 (Chinese)',
             'de' => 'Deutsch (German)',
             'en' => 'English',
             'fi' => 'Suomi (Finnish)',
